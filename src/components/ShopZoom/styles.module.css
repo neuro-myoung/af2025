@@ -1,0 +1,35 @@
+.container{
+    height: 300vh;
+    position: relative;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    height: 100vh;
+    background-color: orange;
+}
+
+.el {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.imgContainer {
+    width: 25vw;
+    height: 25vh;
+    position: relative;
+}
+
+.el:nth-of-type(2) {
+    position:relative;
+    top: 5vh;
+    left: 6vw;
+    width: 35vw;
+    height: 30vh;
+}
